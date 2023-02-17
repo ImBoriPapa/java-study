@@ -3,3 +3,10 @@
 /build/
 /out/
 /out/production/classes/
+
+.idea
+build.gradle
+settings.gradle
+.gradle
+gradlew
+gradlew.bat
