@@ -1,6 +1,6 @@
-package ch01_jvm;
+package jvm;
 
-public class Main {
+public class Jvm_01 {
 
     public static void main(String[] args) {
         System.out.println("Hello World!!");
