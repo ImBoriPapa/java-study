@@ -22,7 +22,14 @@ public class Information {
     }
 
     public static void main(String[] args) {
+        float min = 1.123123f;
+        double max = 1.123123d;
 
+        System.out.println("float 의 최소값 =" + Float.MIN_VALUE + ", 최대값= " + Float.MAX_VALUE);
+        System.out.println("double 의 최소값 =" + Double.MIN_VALUE + ", 최대값= " + Double.MAX_VALUE);
+
+        boolean isDouble = Float.BYTES * 2 == Double.BYTES;
+        System.out.println(isDouble);
     }
 
 }
